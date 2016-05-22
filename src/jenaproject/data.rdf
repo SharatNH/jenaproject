@@ -1,0 +1,70 @@
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:j.0="http://purl.org/vocab/relationship/"
+    xmlns:relation="http://family#">
+  <rdf:Description rdf:about="http://family#gajanan">
+    <j.0:parentOf>krishna</j.0:parentOf>
+    <j.0:parentOf>mahalaxhmi</j.0:parentOf>
+    <j.0:parentOf>shanta</j.0:parentOf>
+    <j.0:grandparentOf>Sunil</j.0:grandparentOf>
+    <j.0:ancestorOf>Sunil</j.0:ancestorOf>
+    <j.0:ancestorOf>Sharat</j.0:ancestorOf>
+    <j.0:grandparentOf>Sharat</j.0:grandparentOf>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://family#syndicatebank">
+    <j.0:employerOf>Narayan Hegde</j.0:employerOf>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://family#krishna">
+    <j.0:parentOf>ganapathi</j.0:parentOf>
+    <j.0:parentOf>guru</j.0:parentOf>
+    <j.0:spouseOf>dhakshayani</j.0:spouseOf>
+    <j.0:siblingOf>mahalaxhmi</j.0:siblingOf>
+    <j.0:siblingOf>shanta</j.0:siblingOf>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://family#sharat">
+    <j.0:livesWith>sunil</j.0:livesWith>
+    <j.0:lostContactWith>ashrith</j.0:lostContactWith>
+    <j.0:friendOf>sanketh</j.0:friendOf>
+    <j.0:closeFriendOf>rakesh</j.0:closeFriendOf>
+    <j.0:influencedBy>apjkalam</j.0:influencedBy>
+    <j.0:grandchildOf>gajanan</j.0:grandchildOf>
+    <j.0:grandchildOf>bhagirathi</j.0:grandchildOf>
+    <j.0:childOf>narayan</j.0:childOf>
+    <j.0:childOf>shanta</j.0:childOf>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://family#sunil">
+    <j.0:childOf>Narashimaha</j.0:childOf>
+    <j.0:childOf>mahalaxhmi</j.0:childOf>
+    <j.0:engagedTo>sumana</j.0:engagedTo>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://family#bhagirathi">
+    <j.0:parentOf>krishna</j.0:parentOf>
+    <j.0:parentOf>mahalaxhmi</j.0:parentOf>
+    <j.0:parentOf>shanta</j.0:parentOf>
+    <j.0:grandparentOf>Sunil</j.0:grandparentOf>
+    <j.0:ancestorOf>Sunil</j.0:ancestorOf>
+    <j.0:ancestorOf>Sharat</j.0:ancestorOf>
+    <j.0:grandparentOf>Sharat</j.0:grandparentOf>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://family#shanta">
+    <j.0:employedBy>sbi</j.0:employedBy>
+    <j.0:parentOf>sharat</j.0:parentOf>
+    <j.0:spouseOf>narayan</j.0:spouseOf>
+    <j.0:siblingOf>krishna</j.0:siblingOf>
+    <j.0:siblingOf>mahalaxhmi</j.0:siblingOf>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://family#mahalaxhmi">
+    <j.0:parentOf>sunil</j.0:parentOf>
+    <j.0:livesWith>narashimha</j.0:livesWith>
+    <j.0:spouseOf>narashimha</j.0:spouseOf>
+    <j.0:siblingOf>krishna</j.0:siblingOf>
+    <j.0:siblingOf>shanta</j.0:siblingOf>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://family#narayan">
+    <j.0:employedBy>syndicatebank</j.0:employedBy>
+    <j.0:colleagueOf>sundresh</j.0:colleagueOf>
+    <j.0:parentOf>sharat</j.0:parentOf>
+    <j.0:spouseOf>shanta</j.0:spouseOf>
+    <j.0:siblingOf>raju</j.0:siblingOf>
+  </rdf:Description>
+</rdf:RDF>
